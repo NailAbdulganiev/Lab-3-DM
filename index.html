@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Лабораторная работа №3</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <p>
+           Введите матрицу отношения и узнайте является ли она функцией. <br>
+           Пример ввода: <br>
+           1 0 0 0 <br>
+           0 0 0 1 <br>
+        </p>
+        <form onsubmit="check(); return false;">
+            <textarea name="comment" cols="30" rows="7" placeholder="Введите матрицу" id="input"></textarea><br>
+            <input type="submit" name="submit-btn" value="Выполнить">
+        </form>
+        <p><span id="result"></span></p>
+    </body>
+</html>
